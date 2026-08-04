@@ -14,7 +14,7 @@
 
 // NOTE: customized keys
 #define KX_CTL_SPC  LCTL(KC_SPC)
-#define KX_CYC_TAB  LCTL(KC_TAB)
+#define KX_CYC_DSK  LGUI(KC_TAB)
 #define KX_NEW_TAB  LCTL(KC_T)
 #define KX_SFT_TAB  SFT_T(KC_TAB)
 #define KX_SFT_ENT  SFT_T(KC_ENT)
@@ -62,6 +62,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
             break;
         case _NAV:
             rgblight_sethsv(42, 255, current_val);
+            uprintf("NAVIGATION\n");
             break;
         case _SYSTEM:
             rgblight_sethsv(170, 255, current_val);
@@ -81,7 +82,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_NUMS] = LAYOUT_split_3x6_3_ex2(
-        KC_NO,     KC_F10,  KC_F11,   KC_NO,    KC_MINS,   KC_EQL,  KC_HOME,        KC_NO,       KC_NO,      KC_7,   KC_8,    KC_9,    KC_GRV,  MS_BTN5,
+        KC_NO,     KC_F10,  KC_F11,   KC_NO,    KC_EQL,    KC_MINS, KC_HOME,        KC_NO,       KC_NO,      KC_7,   KC_8,    KC_9,    KC_GRV,  MS_BTN5,
         KX_SFT_TAB,KC_F8,   KC_F5,    KC_NO,    KC_LBRC,   KC_RBRC, KC_END,         KC_BSPC,     KC_NO,      KC_4,   KC_5,    KC_6,    KC_NO ,  KC_NO,
         MO(_NAV),  KC_F2,   KC_F12,   KC_NO,    KC_NO,     KC_NO,                                KX_UDN_SRC, KC_1,   KC_2,    KC_3,    KC_BSLS, KX_SFCP,
                                                 KC_DEL,    KC_LCTL, KC_SPC,         KX_SFT_ENT,  KC_NO,      KC_0
@@ -97,7 +98,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_SYSTEM] = LAYOUT_split_3x6_3_ex2(
         KC_NO, KC_MUTE, KC_VOLD, KC_VOLU, KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KX_WIN_CLOSE,  KX_LOCK,       KC_NO,        KC_NO,  KC_NO,
         KC_NO, UG_TOGG, UG_VALU, UG_VALD, KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KX_WIN_NEW,    KX_WIN_PREV,   KX_WIN_NEXT,  KC_NO,  KC_NO,
-        KC_NO, KC_NO,   KC_BRID, KC_BRIU, KC_NO,    KC_NO,                          KC_NO,    KX_CTL_SPC,    KX_NEW_TAB,    KX_CYC_TAB,   KC_NO,  KC_NO,
+        KC_NO, KC_NO,   KC_BRID, KC_BRIU, KC_NO,    KC_NO,                          KC_NO,    KX_CTL_SPC,    KX_NEW_TAB,    KX_CYC_DSK,   KC_NO,  KC_NO,
                                           KC_MPRV,  KC_MNXT, KC_SPC,     KC_NO,     KC_NO,    KC_NO
     )
 };
