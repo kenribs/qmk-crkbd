@@ -59,7 +59,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│     │MUTE │VOL- │VOL+ │     │     │     │   │     │     │DSKCL│LOCK │SNIP │     │     │
+│     │MUTE │VOL- │VOL+ │     │     │     │   │     │     │DSKCL│LOCK │FEXP │SNIP │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │     │RGB  │RGB- │RGB+ │     │     │     │   │     │     │DSKNW│DSKPV│DSKNX│     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
@@ -90,6 +90,8 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 - **`SFT|C`**: hold for Shift, tap Caps Lock
 - **`EMJ`**: emoji board (windows) (WIN + .)
 - **`CLB`**: clipboard (windows) (WIN + V)
+- **`SNIP`**: shortcut for windows snipping tool.
+- **`FEXP`**: shortcut for windows file explorer.
 
 ## Flashing
 

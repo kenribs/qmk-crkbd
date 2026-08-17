@@ -7,6 +7,7 @@
 #define KX_WIN_NEXT  LGUI(LCTL(KC_RIGHT))
 #define KX_WIN_PREV  LGUI(LCTL(KC_LEFT))
 #define KX_WIN_SNIP  LGUI(LSFT(KC_S))
+#define KX_WIN_EXP   LGUI(KC_E)
 
 #define KX_EMOJI    LGUI(KC_SCLN)
 #define KX_CLIPB    LGUI(KC_V) // opens up the clipboard history
@@ -96,7 +97,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_SYSTEM] = LAYOUT_split_3x6_3_ex2(
-        KC_NO, KC_MUTE, KC_VOLD, KC_VOLU, KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KX_WIN_CLOSE,  KX_LOCK,       KX_WIN_SNIP,  KC_NO,  KC_NO,
+        KC_NO, KC_MUTE, KC_VOLD, KC_VOLU, KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KX_WIN_CLOSE,  KX_LOCK,       KX_WIN_EXP,   KX_WIN_SNIP,  KC_NO,
+
         KC_NO, UG_TOGG, UG_VALU, UG_VALD, KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KX_WIN_NEW,    KX_WIN_PREV,   KX_WIN_NEXT,  KC_NO,  KC_NO,
         KC_NO, KC_NO,   KC_BRID, KC_BRIU, KC_NO,    KC_NO,                          KC_NO,    KX_CTL_SPC,    KX_NEW_TAB,    KX_CYC_TAB,   KC_NO,  KC_NO,
                                           KC_MPRV,  KC_MNXT, KC_MPLY,    KC_NO,     KC_NO,    KC_NO
