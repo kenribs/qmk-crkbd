@@ -21,7 +21,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │SF/TB│  A  │  S  │  D  │  F  │  G  │PGDN │   │BSPC │  H  │  J  │  K  │  L  │  ;: │ '"  │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│MO(2)│  Z  │  X  │  C  │  V  │  B  │     │   │LSFT/│  N  │  M  │  ,< │  .> │  /? │SFT/C│
+│MO(2)│  Z  │  X  │  C  │  V  │  B  │     │   │LSFT/│  N  │  M  │  ,< │  .> │  /? │SFT|C│
 └─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │ ENT ├─────┼─────┼─────┴─────┴─────┴─────┘
                         │CTRL │ GUI │     │   │     │MO(1)│MO(3)│
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
@@ -35,7 +35,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │SF/TB│ F8  │ F5  │     │  [{ │  }] │END  │   │BSPC │     │  4$ │  5% │  6^ │     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│MO(2)│ F2  │ F12 │     │  V  │  B  │     │   │LSFT/│  _  │  1! │  2@ │  3# │  \| │SFT/C│
+│MO(2)│ F2  │ F12 │     │  V  │  B  │     │   │LSFT/│  _  │  1! │  2@ │  3# │  \| │SFT|C│
 └─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │ ENT ├─────┼─────┼─────┴─────┴─────┴─────┘
                         │ DEL │CTRL │     │   │     │     │  0) │
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
@@ -59,7 +59,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│     │MUTE │VOL- │VOL+ │     │     │     │   │     │     │DSKCL│LOCK │     │     │     │
+│     │MUTE │VOL- │VOL+ │     │     │     │   │     │     │DSKCL│LOCK │SNIP │     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │     │RGB  │RGB- │RGB+ │     │     │     │   │     │     │DSKNW│DSKPV│DSKNX│     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
@@ -87,7 +87,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 - **`MSB5`**: mouse click no. 5, forward
 - **`SF/TB`**: hold for shift, tap for tab
 - **`LSFT/ENT`**: hold for shift, tap for enter
-- **`SFT/C`**: Tap for Shift, double-tap for Caps Lock
+- **`SFT|C`**: hold for Shift, tap Caps Lock
 - **`EMJ`**: emoji board (windows) (WIN + .)
 - **`CLB`**: clipboard (windows) (WIN + V)
 
