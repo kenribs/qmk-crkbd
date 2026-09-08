@@ -1,14 +1,14 @@
 #pragma once
 
 // RGB Underglow settings
-#define RGBLIGHT_TIMEOUT 300000      // 5 minutes timeout
-#define RGBLIGHT_SLEEP              // Turn off when sleeping
+#define RGBLIGHT_TIMEOUT 300000 // 5 minutes timeout
+#define RGBLIGHT_SLEEP          // Turn off when sleeping
 
 #ifdef RGBLIGHT_ENABLE
-    // RGB Underglow step values
-    #define RGBLIGHT_HUE_STEP 10
-    #define RGBLIGHT_SAT_STEP 17
-    #define RGBLIGHT_VAL_STEP 17
+// RGB Underglow step values
+#define RGBLIGHT_HUE_STEP 10
+#define RGBLIGHT_SAT_STEP 17
+#define RGBLIGHT_VAL_STEP 17
 #endif
 
 // Encoder settings
@@ -18,7 +18,7 @@
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
 // Tapping term
-#define TAPPING_TERM 500
+#define TAPPING_TERM 200
 
 // Mouse key settings
 #define MOUSEKEY_DELAY 5
@@ -32,4 +32,4 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 40
 
 // Layer lock settings
-#define LAYER_LOCK_IDLE_TIMEOUT 60000    // 1 minute timeout
+#define LAYER_LOCK_IDLE_TIMEOUT 60000 // 1 minute timeout

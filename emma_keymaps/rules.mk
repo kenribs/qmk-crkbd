@@ -28,7 +28,12 @@ RAW_ENABLE = yes
 COMBO_ENABLE = no
 
 # Enable tap dance functionality
-TAP_DANCE_ENABLE = yes
+# TAP_DANCE_ENABLE = yes
 
 # Enable layer lock functionality
 LAYER_LOCK_ENABLE = yes
+
+#Enable key overrides features
+KEY_OVERRIDE_ENABLE = yes
+SRC += features/key_overrides.c
+SRC += features/backlight.c

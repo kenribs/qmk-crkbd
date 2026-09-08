@@ -17,13 +17,13 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│ ESC │  Q  │  W  │  E  │  R  │  T  │PGUP │   │     │  Y  │  U  │  I  │  O  │  P  │MSB4 │
+│ ESC │  Q  │  W  │  E  │  R  │  T  │PGUP │   │ APP │  Y  │  U  │  I  │  O  │  P  │MSB4 │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │SF/TB│  A  │  S  │  D  │  F  │  G  │PGDN │   │BSPC │  H  │  J  │  K  │  L  │  ;: │ '"  │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │MO(2)│  Z  │  X  │  C  │  V  │  B  │     │   │LSFT/│  N  │  M  │  ,< │  .> │  /? │SFT|C│
 └─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │ ENT ├─────┼─────┼─────┴─────┴─────┴─────┘
-                        │CTRL │ GUI │     │   │     │MO(1)│MO(3)│
+                        │ ALT │CTRL │     │   │     │MO(1)│MO(3)│
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
 
@@ -31,13 +31,13 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│     │ F10 │ F11 │     │  =+ │  -_ │HOME │   │     │     │  7& │  8* │  9( │  `~ │MSB5 │
+│     │     │     │     │  -_ │ =+  │HOME │   │ APP │     │  7& │  8* │  9( │  `~ │MSB5 │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│SF/TB│ F8  │ F5  │     │  [{ │  }] │END  │   │BSPC │     │  4$ │  5% │  6^ │     │     │
+│ TAB │     │     │     │  [{ │  }] │END  │   │BSPC │     │  4$ │  5% │  6^ │     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│MO(2)│ F2  │ F12 │     │  V  │  B  │     │   │LSFT/│  _  │  1! │  2@ │  3# │  \| │SFT|C│
+│MO(2)│     │     │     │     │     │     │   │LSFT/│  _  │  1! │  2@ │  3# │  \| │SFT|C│
 └─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │ ENT ├─────┼─────┼─────┴─────┴─────┴─────┘
-                        │ DEL │CTRL │     │   │     │     │  0) │
+                        │ ALT │CTRL │     │   │     │     │  0) │
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
 
@@ -45,11 +45,11 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
-│     │     │     │     │PGUP │HOME │     │   │     │     │     │     │     │     │     │
+│     │     │     │     │     │     │     │   │     │WIN ←│WIN ↓│WIN ↑│WIN →│     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│SF/TB│     │ EMJ │ CLB │PGDN │END  │     │   │BSPC │  ←  │  ↓  │  ↑  │  →  │     │     │
+│ TAB │     │     │ EMJ │ CLB │     │     │   │BSPC │  ←  │  ↓  │  ↑  │  →  │     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│     │     │     │     │     │     │     │   │     │     │     │     │     │     │     │
+│     │     │     │     │     │     │     │   │LSFT/│     │     │     │     │     │     │
 └─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │ ENT ├─────┼─────┼─────┴─────┴─────┴─────┘
                         │ ALT │CTRL │     │   │     │MO(1)│ APP │
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
@@ -64,7 +64,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 │     │RGB  │RGB- │RGB+ │     │     │     │   │     │     │DSKNW│DSKPV│DSKNX│     │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │     │     │BRI- │BRI+ │     │     │     │   │     │     │CLSPC│NWTAB│CYTAB│     │     │
-└─────┴─────┴─────┴─────┼─────┼─────┤ SPC │   │     ├─────┼─────┼─────┴─────┴─────┴─────┘
+└─────┴─────┴─────┴─────┼─────┼─────┤MPLY │   │     ├─────┼─────┼─────┴─────┴─────┴─────┘
                         │ RW  │ FF  │     │   │     │     │     │
                         └─────┴─────┴─────┘   └─────┴─────┴─────┘
 ```
@@ -85,6 +85,7 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 - **`DSKNX`**: Windows next opened desktop (WIN + CTRL + →)
 - **`MSB4`**: mouse click no. 4, back
 - **`MSB5`**: mouse click no. 5, forward
+- **`MPLY`**: media play button.
 - **`SF/TB`**: hold for shift, tap for tab
 - **`LSFT/ENT`**: hold for shift, tap for enter
 - **`SFT|C`**: hold for Shift, tap Caps Lock
@@ -92,6 +93,26 @@ This is a custom keymaps for corne keyboard v4.1 that is compatible with windows
 - **`CLB`**: clipboard (windows) (WIN + V)
 - **`SNIP`**: shortcut for windows snipping tool.
 - **`FEXP`**: shortcut for windows file explorer.
+- **`WIN ←`**: place current window left.
+- **`WIN ↓`**: place current window down.
+- **`WIN ↑`**: place current window up.
+- **`WIN →`**: place current window right.
+
+**Override Keys:**
+
+- **`ALT + NUM1`**: F1
+- **`ALT + NUM2`**: F2
+- **`ALT + NUM3`**: F3
+- **`ALT + NUM4`**: F4
+- **`ALT + NUM5`**: F5
+- **`ALT + NUM6`**: F6
+- **`ALT + NUM7`**: F7
+- **`ALT + NUM8`**: F8
+- **`ALT + NUM9`**: F9
+- **`ALT + NUM10`**: F10
+- **`ALT + ADD`**: F11
+- **`ALT + MINUS`**: F12
+- **`SFT + BSPC`**: DEL
 
 ## Flashing
 
