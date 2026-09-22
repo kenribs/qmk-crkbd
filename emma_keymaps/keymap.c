@@ -54,8 +54,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_SYSTEM] = LAYOUT_split_3x6_3_ex2(
-        KC_NO, KC_MUTE, KC_VOLD, KC_NO,   KC_NO,   KC_NO,   KC_VOLU,      KC_NO, KC_NO, KX_WIN_CLOSE, KX_WIN_LOCK, KX_WIN_EXP,  KX_WIN_SNIP, KC_NO,
-        KC_NO, UG_TOGG, UG_VALU, KC_NO,   KC_NO,   KC_NO,   KC_VOLD,      KC_NO, KC_NO, KX_WIN_NEW,   KX_WIN_PREV, KX_WIN_NEXT, KC_NO,       KC_NO,
+        KC_NO, KC_MUTE, UG_HUEU, UG_SATU, UG_NEXT, KC_NO,   KC_VOLU,      KC_NO, KC_NO, KX_WIN_CLOSE, KX_WIN_LOCK, KX_WIN_EXP,  KX_WIN_SNIP, KC_NO,
+        KC_NO, UG_TOGG, UG_HUED, UG_SATD, UG_PREV, KC_NO,   KC_VOLD,      KC_NO, KC_NO, KX_WIN_NEW,   KX_WIN_PREV, KX_WIN_NEXT, KC_NO,       KC_NO,
         KC_NO, KC_NO,   KC_BRID, KC_BRIU, KC_NO,   KC_NO,                        KC_NO, KX_CTL_SPC,   KX_NEW_TAB,  KX_CYC_TAB,  KC_NO,       KC_NO,
                                           KC_MPRV, KC_MNXT, KC_MPLY,      KC_NO, KC_NO, KC_NO
     )
