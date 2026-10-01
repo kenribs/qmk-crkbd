@@ -47,10 +47,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_NAV] = LAYOUT_split_3x6_3_ex2(
-        KC_NO,   KC_NO, KC_NO, KC_NO,    KC_NO,    KC_NO,   KC_NO,         KC_NO,     KX_WIN_LW, KX_WIN_DW, KX_WIN_UW, KX_WIN_RW, KC_NO, KC_NO,
-        KC_LSFT, KC_NO, KC_NO, KX_EMOJI, KX_CLIPB, KC_NO,   KC_NO,         KC_BSPC,   KC_LEFT,   KC_DOWN,   KC_UP,     KC_RIGHT,  KC_NO, KC_NO,
+        KC_NO,   KC_NO, KC_NO, KC_NO,    KC_NO,    KC_NO,   KC_NO,        KC_APP,     KX_WIN_LW, KX_WIN_DW, KX_WIN_UW, KX_WIN_RW, KC_NO, KC_NO,
+        KC_LSFT, KC_NO, KC_NO, KX_EMOJI, KX_CLIPB, KC_NO,   KC_NO,        KC_BSPC,    KC_LEFT,   KC_DOWN,   KC_UP,     KC_RIGHT,  KC_NO, KC_NO,
         KC_NO,   KC_NO, KC_NO, KC_NO,    KC_NO,    KC_NO,                             KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO, KC_NO,
-                                         KC_LALT,  KC_LCTL, KC_SPC,       KX_SFT_ENT, KC_NO,     KC_NO
+                                         KC_LALT,  KC_LCTL, KC_SPC,       KX_SFT_ENT, KC_LGUI,     KC_APP
     ),
 
     [_SYSTEM] = LAYOUT_split_3x6_3_ex2(
